@@ -1,0 +1,12 @@
+node_modules
+_Presentations
+_Resources
+_Tasks-Conditions
+.vscode
+*.xls
+*.xlsx
+*.doc
+*.docx
+*.pdf
+*.txt
+*.zip

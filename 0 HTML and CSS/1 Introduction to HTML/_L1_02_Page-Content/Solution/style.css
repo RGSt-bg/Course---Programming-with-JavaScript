@@ -1,0 +1,11 @@
+body {
+    background: rgb(204, 204, 204);
+}
+
+p {
+    font-size: 24px;
+}
+
+article header p {
+    font-style: italic;
+}

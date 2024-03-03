@@ -1,0 +1,11 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table tr td th {
+    border-style: solid;
+    border-width: 1px;
+}

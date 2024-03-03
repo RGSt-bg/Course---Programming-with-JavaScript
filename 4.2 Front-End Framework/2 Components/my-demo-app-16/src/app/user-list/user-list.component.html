@@ -1,0 +1,13 @@
+<ul>
+    <li *ngFor="let user of users; index as i">
+        <span [class]="user?.status">
+            {{i+1}}. {{user.name}} - {{user.age}}
+        </span>
+        <!-- <span *ngIf="i % 2 === 0" style="background-color: lightgray;">
+            {{i+1}}. {{user.name}} - {{user.age}}
+        </span>
+        <span *ngIf="i % 2 !== 0" style="background-color: pink;">
+            {{i+1}}. {{user.name}} - {{user.age}}
+        </span> -->
+    </li>
+</ul>

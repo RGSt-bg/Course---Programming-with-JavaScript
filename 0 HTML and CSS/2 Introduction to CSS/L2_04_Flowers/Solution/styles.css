@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(214,116,114);
+    margin: 0;
+    text-align: center;
+}
+
+/*============== Common properties for all such tags ==============*/
+li {
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+hr {
+    width: 60px;
+    height: 2px;
+    align-items: center;
+    border: none;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+
+article {
+    color: white;
+}
+
+/*====================== Header - properties ======================*/
+header {
+    background-color: white;
+    color: rgb(214,116,114);
+    height: 2rem;
+    width: 50rem;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    vertical-align: middle;
+}
+
+header nav ul li a {
+    color: rgb(214,116,114);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*=================== Above article - properties ===================*/
+main article:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, rgba(52, 52, 52, 0.6), 
+                                              rgba(75, 75, 75, 0.6), 
+                                              rgba(99, 99, 99, 0.6), 
+                                              rgba(124, 124, 124, 0.6), 
+                                              rgba(150, 150, 150, 0.6)), 
+                                              url(../Requirements-and-Resources/Images/header-flower.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 50rem;
+    height: 25rem;
+}
+
+main article:nth-child(1) h1 {
+    margin: 0.5rem 0;
+}
+
+main article:nth-child(1) hr {
+    border-color: rgb(214,116,114);
+    background-color: rgb(214,116,114);
+}
+
+main article:nth-child(1) p {
+    width: 46%;
+    font-size: 12px;
+}
+
+/*=================== Bottom article - properties ===================*/
+main article:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    height: 11rem;
+}
+
+main article:nth-child(2) p:nth-child(1) {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0.5rem 0 0 0;
+}
+
+main article:nth-child(2) hr {
+    border-color: white;
+    background-color: white;
+}
+
+main article:nth-child(2) p:nth-child(3) {
+    width: 46%;
+    font-size: 12px;
+    margin: 0;
+}
+
+main article:nth-child(2) input {
+    width: 6rem;
+    height: 1.9rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(214,116,114);
+    background-color: white;
+    margin: 1.5rem 0 0 0;
+}
+
+/*====================== Section - properties ======================*/
+section {
+    background: white;
+    width: 50rem;
+    height: 17rem;
+}
+
+section p:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1rem 0 0 0;
+}
+
+section hr {
+    border-color: rgb(214,116,114);
+    background-color: rgb(214,116,114);
+}
+
+section ul {
+    padding: 0;
+    vertical-align: top;
+}
+
+section ul li {
+    vertical-align: top;
+}
+
+section ul li p {
+    margin: 0 0 1rem 0;
+    font-size: 12px;
+}
+
+section ul li div {
+    padding: 0 1rem;
+}
+
+section ul li div article {
+    width: 110px;
+    font-size: 8px;
+    color: grey;
+}
+
+/*====================== Footer - properties ======================*/
+footer {
+    width: 50rem;
+    font-size: 10px;
+    color: white;
+
+}
