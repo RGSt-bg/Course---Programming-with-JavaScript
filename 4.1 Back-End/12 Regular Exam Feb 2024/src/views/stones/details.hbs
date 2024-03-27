@@ -1,51 +1,51 @@
 <main class="details">
-            <!-- Details page -->
-            <section id="details">
-                <div id="details-wrapper">
-                    <p id="details-title">Name: {{creator.name}}</p>
-                    <div id="img-wrapper">
-                        <img src="{{creator.image}}" />
-                    </div>
-                    <div id="info-wrapper">
-                        <table>
-                            <tr>
-                                <td>
-                                    <p>
-                                        Category: <span id="details-category">{{creator.category}}</span>
-                                    </p>
-                                </td>
-                                <td>
-                                    <p>Color: <span id="details-color">{{creator.color}}</span></p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p>Location: <span id="details-location">{{creator.location}}</span></p>
-                                </td>
-                                <td>
-                                    <p>Formula: <span id="details-formula">{{creator.formula}}</span></p>
-                                </td>
-                            </tr>
-                        </table>
-                        <p>Description: <span id="details-description">{{creator.description}}</span></p>
-                    </div>
+    <!-- Details page -->
+    <section id="details">
+        <div id="details-wrapper">
+            <p id="details-title">Name: {{creator.name}}</p>
+            <div id="img-wrapper">
+                <img src="{{creator.image}}" />
+            </div>
+            <div id="info-wrapper">
+                <table>
+                    <tr>
+                        <td>
+                            <p>
+                                Category: <span id="details-category">{{creator.category}}</span>
+                            </p>
+                        </td>
+                        <td>
+                            <p>Color: <span id="details-color">{{creator.color}}</span></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Location: <span id="details-location">{{creator.location}}</span></p>
+                        </td>
+                        <td>
+                            <p>Formula: <span id="details-formula">{{creator.formula}}</span></p>
+                        </td>
+                    </tr>
+                </table>
+                <p>Description: <span id="details-description">{{creator.description}}</span></p>
+            </div>
 
-                    <!--Edit and Delete are only for creator-->
-                    <div id="action-buttons">
-                        {{#if user}}
-                        {{#if owner}}
-                        <a href="/edit/{{creator._id}}" id="edit-btn">Edit</a>
-                        <a href="/delete/{{creator._id}}" id="delete-btn">Delete</a>
-                        {{else}}
-                        {{#if amISignedUp}}
-                        <p id="already-liked">You already liked this stone!</p>
-                        {{else}}
-                        <a href="/like/{{creator._id}}" id="like-btn">Like</a>
-                        {{/if}}
-                        {{/if}}
-                        {{/if}}
+            <!--Edit and Delete are only for creator-->
+            <div id="action-buttons">
+                {{#if user}}
+                {{#if owner}}
+                <a href="/edit/{{creator._id}}" id="edit-btn">Edit</a>
+                <a href="/delete/{{creator._id}}" id="delete-btn">Delete</a>
+                {{else}}
+                {{#if amISignedUp}}
+                <p id="already-liked">You already liked this stone!</p>
+                {{else}}
+                <a href="/like/{{creator._id}}" id="like-btn">Like</a>
+                {{/if}}
+                {{/if}}
+                {{/if}}
 
-                    </div>
-                </div>
-            </section>
-        </main>
+            </div>
+        </div>
+    </section>
+</main>

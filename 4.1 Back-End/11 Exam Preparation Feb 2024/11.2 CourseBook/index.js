@@ -7,7 +7,7 @@ const routes = require('./routes');
 const { authMiddleware } = require('./middlewares/authMiddleware');
 
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));

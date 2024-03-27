@@ -1,7 +1,5 @@
-node_modules
-_Presentations
-_Resources
-_Tasks-Conditions
+/resources/node_modules
+/REST-API/node_modules
 .vscode
 .angular
 *.xls
@@ -11,3 +9,4 @@ _Tasks-Conditions
 *.pdf
 *.txt
 *.zip
+node_modules
