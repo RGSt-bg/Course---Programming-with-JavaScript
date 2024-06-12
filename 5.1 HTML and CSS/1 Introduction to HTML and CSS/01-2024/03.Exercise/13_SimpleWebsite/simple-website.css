@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+}
+
+ul, footer {
+    background-color: #444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section {
+    margin-left: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 24px;
+}
+
+header p:nth-child(2) {
+    font-style: italic;
+    font-size: 16px;
+}
+
+footer p {
+    background-color: #444;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+}

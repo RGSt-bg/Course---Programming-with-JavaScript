@@ -1,0 +1,27 @@
+main {
+    width: 400px;
+    background-color: #dddddd;
+    border: 1px solid #000000;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main #chapter {
+    text-align: left;
+    font-size: 22px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+o	q::before {
+    content: open-quote;
+}
+o	q::after { 
+    content: close-quote;
+}
