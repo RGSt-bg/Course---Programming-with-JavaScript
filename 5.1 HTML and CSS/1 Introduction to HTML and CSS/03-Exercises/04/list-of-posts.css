@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+}
+
+header > p {
+    color: grey;
+}
+
+span {
+    font-weight: bold;
+}
+
+p > time {
+    font-style: italic;
+}

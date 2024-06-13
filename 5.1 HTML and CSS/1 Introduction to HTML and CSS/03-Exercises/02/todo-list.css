@@ -1,0 +1,89 @@
+body {
+    margin: 50px;
+    padding: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    width: 365px;
+    color: rgb(149, 71, 189);
+    border: 3px solid rgb(149, 71, 189);
+    border-radius: 15px;
+}
+
+h1 {
+    margin: 0 10px;
+}
+
+form, section {
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    width: 355px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(149, 71, 189);
+    border-radius: 15px;
+}
+
+input {
+    font-size: 16px;
+    width: 280px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+button {
+    font-size: 16px;
+    width: 60px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(149, 71, 189);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+ul {
+    list-style-type: decimal;
+}
+
+li {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+section > img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+section:nth-child(3) > h2 {
+    color: red;
+}
+
+
+section:nth-child(3) li:hover {
+    font-style: oblique;
+    color: red;
+    cursor: pointer;
+}
+
+section:nth-child(4) > h2 {
+    color: green;
+}
+
+section:nth-child(4) li {
+    color: green;
+    font-style: italic;
+    margin-left: 50px;
+}
