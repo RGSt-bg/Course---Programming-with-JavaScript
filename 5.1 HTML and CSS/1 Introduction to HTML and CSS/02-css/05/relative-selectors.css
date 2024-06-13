@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 40px 0 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+p {
+    color: red;
+}
+
+li {
+    font-weight: bold;
+    list-style-type: none;
+    line-height: 1.85;
+}
+
+a {
+    text-decoration: none;
+}
+
+section p {
+    color: black;
+}
+
+.darkblue > li {
+    color: black;
+}
+
+.darkblue > li:nth-child(2) {
+    color: rgb(255, 97, 69);
+}
+
+.highlight + article {
+    background-color: rgb(240, 128, 128);
+    color: rgb(47, 79, 79);
+}
+
+.highlight + article p {
+    color: rgb(47, 79, 79);
+}
+
+h2 ~ p {
+    color: rgb(52, 95, 223);
+}
+
+ul > li > ul > li a {
+    color: rgb(0, 0, 123);
+}
+
+ul > li > ul > li:nth-child(3) a {
+    color: green;
+}

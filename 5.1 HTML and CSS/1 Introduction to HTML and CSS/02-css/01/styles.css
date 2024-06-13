@@ -1,0 +1,42 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#main-title {
+    color: red;
+}
+
+#special-paragraph {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type:georgian;
+}
+
+li:nth-child(1) {
+    font-weight: bold;
+}
+
+li:nth-child(2) {
+    font-style: italic;
+    color: green;
+}
+
+li:nth-child(3) {
+    text-decoration: underline;
+    color: red;
+}
+
+div {
+    background-color: lightblue;
+}

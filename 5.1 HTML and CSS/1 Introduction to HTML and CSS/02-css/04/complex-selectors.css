@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Nav section */
+nav {
+    margin-left: -20px;
+}
+
+nav ul li:nth-child(1) a {
+    font-weight: bold;
+}
+
+nav ul li:nth-child(3) a {
+    font-style: italic;
+}
+
+/* Main section */
+header {
+    margin-top: 50px;
+}
+
+#title::before {
+    content: ">>";
+    color: rgb(139, 0, 0);
+}
+
+#title::after {
+    content: "<<";
+    color: rgb(139, 0, 0);
+}
+
+.services article {
+    background-color: rgb(173, 216, 230);
+    padding: 15px 0 16px 12px;
+}
+
+.services article:nth-child(2) {
+    margin-bottom: 11px;
+}
+
+div > section.additional p a {
+    color: black;
+}
+
+/* Footer section */
+footer div {
+    background-color: rgb(211, 211, 211);
+}
+
+.form [type="text"] {
+    border: solid 1px rgb(0, 0, 255);
+}
