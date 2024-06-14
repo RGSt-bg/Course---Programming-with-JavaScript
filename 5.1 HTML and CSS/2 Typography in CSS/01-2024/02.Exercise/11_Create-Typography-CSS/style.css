@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 100px 70px 70px 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+hr {
+    color: rgb(250, 250, 250);
+}
+
+hr:last-of-type {
+    margin: 50px 0 30px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid rgb(221,221,221);
+}
+
+th, td {
+    border-collapse: collapse;
+    border: 2px solid rgb(221,221,221);
+    padding-left: 10px;
+}
+
+th {
+    text-align: left;
+    width: 33.33%;
+    background-color: rgb(221,221,221);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(240, 240, 240);
+}
+
+blockquote {
+    border-left: 4px solid rgb(221,221,221);
+    padding-left: 16px;
+    font-style: italic;
+}
+
+blockquote p:nth-child(3) {
+    text-align: right;
+}
