@@ -1,0 +1,21 @@
+p {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.fixed p {
+    height: 200px;
+}
+
+.percentage p {
+    height: 50%;
+}
+
+.viewport p {
+    height: 50vh;
+}
+
+.min-max p {
+    min-height: 100px;
+    max-height: 300px;
+}

@@ -1,0 +1,19 @@
+div {
+    border: 2px solid black;
+    width: 310px;
+}
+
+.Visible {
+    height: 110px;
+    overflow: visible;
+}
+
+.Hidden {
+    height: 80px;
+    overflow: hidden;
+}
+
+.Scroll {
+    height: 80px;
+    overflow: scroll;
+}

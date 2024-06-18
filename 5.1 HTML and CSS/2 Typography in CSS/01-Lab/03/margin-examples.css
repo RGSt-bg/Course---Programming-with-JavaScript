@@ -1,0 +1,19 @@
+body {
+    margin: 40px;
+}
+
+p {
+    border: 1px solid black;
+}
+
+.uniform p {
+    padding: 40px;
+}
+
+.non-uniform p {
+    padding: 10px 30px 20px 40px;
+}
+
+.negative p {
+    margin: -20px;
+}
