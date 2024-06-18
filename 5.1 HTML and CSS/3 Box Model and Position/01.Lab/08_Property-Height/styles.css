@@ -1,0 +1,10 @@
+div {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+p {
+  font-weight: bold;
+  background-color: coral;
+  height: 100px;
+}
