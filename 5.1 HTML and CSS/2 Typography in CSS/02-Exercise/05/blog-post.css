@@ -1,0 +1,33 @@
+main {
+    max-width: 59%;
+    display: block;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+section * {
+    font-family: Lato, sans-serif;
+    line-height: 1.42;
+}
+
+section {
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    padding: 1.5em 2em;
+}
+
+section p {
+    padding-bottom: 1.6em;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section p:first-of-type {
+    font-size: 1.2em;
+}
+
+section p:last-of-type {
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+body {
+    font-family: Lato, sans-serif;
+    font-size: 0.6em;
+    padding: 1.5em;
+}
+
+ul {
+    margin-top: 3em;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 0.4em;
+}
+
+a {
+    font-size: 1.6em;
+    color: black;
+    background-color: rgb(234, 234, 234);
+    padding: 1em;
+    border-radius: 50%;
+}
+
+a:hover {
+    background-color: rgb(70, 70, 249);
+    color: white;
+}
