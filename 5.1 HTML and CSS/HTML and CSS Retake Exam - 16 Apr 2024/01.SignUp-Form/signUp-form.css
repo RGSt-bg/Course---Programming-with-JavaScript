@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 189, 186);
+    margin: 0;
+    padding: 100px 0;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button, input {
+    font-family: "Kode Mono", monospace;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    background-color: rgb(36, 51, 60);
+    padding: 29px;
+    width: 380px;
+    height: 350px;
+    border: 2px solid rgb(36, 51, 60);
+    border-radius: 4px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+div {
+    display: flex;
+}
+
+.signin,
+.started {
+    background-color: rgb(26, 177, 136);
+    border: 2px solid rgb(26, 177, 136);
+    color: white;
+    margin: 0;
+}
+
+.signin,
+.login {
+    width: 185px;
+    height: 43px;
+}
+
+.login {
+    background-color: rgb(67, 83, 89);
+    border: 2px solid rgb(67, 83, 89);
+    color: rgb(149, 177, 180);
+    margin: 0;
+}
+
+.login:hover {
+    background-color: rgb(23, 154, 119);
+    border: 2px solid rgb(23, 154, 119);
+    color: white;
+    cursor: pointer;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+    color: white;
+    margin: 29px 0;
+}
+
+form {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+section {
+    align-items: left;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid rgb(145, 155, 160);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 8px;
+    margin-bottom: 28px;
+    height: 25px;
+    width: 168px;
+}
+
+.input-asterisk {
+    position: relative;
+    display: inline-block;
+}
+
+.asterisk {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    color: rgb(26, 177, 136);
+    pointer-events: none;
+}
+
+#email,
+#password {
+    width: 360px;
+}
+
+#firstName-asterisk {
+    right: 65px;
+}
+
+#lastName-asterisk {
+    right: 75px;
+}
+
+#email-asterisk {
+    right: 228px;
+}
+
+#password-asterisk {
+    right: 218px;
+}
+
+.names:focus + #firstName-asterisk,
+.names:focus + #lastName-asterisk,
+#email:focus + #email-asterisk,
+#password:focus + #password-asterisk,
+.names:not(:placeholder-shown) + #firstName-asterisk,
+.names:not(:placeholder-shown) + #lastName-asterisk,
+#email:not(:placeholder-shown) + #email-asterisk, 
+#password:not(:placeholder-shown) + #password-asterisk {
+    display: none;
+}
+
+.started {
+    width: 372px;
+    height: 65px;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
