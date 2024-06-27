@@ -1,0 +1,53 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* styles */
+body {
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    height: 200px;
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+/* this task */
+.flex-container {
+    align-content: flex-start;
+}
+
+.flex-container.align-content-center {
+    align-content: center;
+}
+
+.flex-container.align-content-flex-end {
+    align-content: flex-end;
+}
+
+.flex-container.align-content-space-between {
+    align-content: space-between;
+}
+
+.flex-container.align-content-space-around {
+    align-content: space-around;
+}

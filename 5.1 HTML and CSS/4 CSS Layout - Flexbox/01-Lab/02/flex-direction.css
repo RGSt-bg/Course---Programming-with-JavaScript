@@ -1,0 +1,45 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* styles */
+body {
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+.flex-container {
+    flex-direction: row;
+}
+
+.flex-container.flex-direction-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-container.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-container.flex-container.flex-direction-column-reverse {
+    flex-direction: column-reverse;
+}

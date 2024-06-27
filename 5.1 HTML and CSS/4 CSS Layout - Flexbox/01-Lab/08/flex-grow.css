@@ -1,0 +1,57 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles */
+body {
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    /* width: 400px; */
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+
+/* this task */
+.flex-container {
+    flex-grow: 0;
+}
+
+.flex-container.flex-grow-one .flex-item:nth-child(1),
+.flex-container.flex-grow-one .flex-item:nth-child(2),
+.flex-container.flex-grow-one .flex-item:nth-child(3) {
+    flex-grow: 1;
+}
+
+.flex-container.flex-grow-2nd-only .flex-item:nth-child(2) {
+    flex-grow: 2;
+}
+
+.flex-container.flex-grow-proportional .flex-item:nth-child(1) {
+    flex-grow: 1;
+}
+
+.flex-container.flex-grow-proportional .flex-item:nth-child(2) {
+    flex-grow: 2;
+}
+
+.flex-container.flex-grow-proportional .flex-item:nth-child(3) {    
+    flex-grow: 3;
+}

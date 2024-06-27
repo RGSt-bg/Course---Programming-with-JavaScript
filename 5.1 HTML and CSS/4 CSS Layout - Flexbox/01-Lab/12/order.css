@@ -1,0 +1,55 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles */
+body {
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 1em;
+    border: 2px solid #000;
+    width: 50px;
+}
+
+/* this task */
+.flex-container.custom-order .flex-item:nth-child(1) {
+    order: 5;
+}
+
+.flex-container.custom-order .flex-item:nth-child(2) {
+    order: 3;
+}
+
+.flex-container.custom-order .flex-item:nth-child(3) {
+    order: 1;
+}
+
+.flex-container.custom-order .flex-item:nth-child(4) {
+    order: 6;
+}
+
+.flex-container.custom-order .flex-item:nth-child(5) {
+    order: 2;
+}
+
+.flex-container.custom-order .flex-item:nth-child(6) {
+    order: 4;
+}

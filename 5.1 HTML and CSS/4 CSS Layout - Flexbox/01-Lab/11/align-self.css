@@ -1,0 +1,65 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles */
+body {
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    width: 400px;
+    height: 250px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 1em;
+    border: 2px solid #000;
+    width: 50px;
+}
+
+/* this task */
+.flex-container.align-self-flex-start .flex-item {
+    align-self: flex-start;
+}
+
+.flex-container.align-self-center .flex-item {
+    align-self: center;
+}
+
+.flex-container.align-self-flex-end .flex-item {
+    align-self: flex-end;
+}
+
+.flex-container.align-self-baseline .flex-item {
+    align-self: center;
+}
+
+.flex-container.align-self-baseline .flex-item:nth-child(1) {
+    align-self: first baseline;
+    height: 80px;
+    font-size: 2em;
+}
+
+.flex-container.align-self-baseline .flex-item:nth-child(3) {
+    align-self: baseline;
+    height: 120px;
+    font-size: 4em;
+}
+
+.flex-container.align-self-baseline .flex-item:nth-child(5) {
+    align-self: last baseline;
+    height: 200px;
+}

@@ -1,0 +1,48 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles */
+body {
+    padding: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+}
+
+.flex-container {
+    width: 300px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-container .flex-item {
+    background-color: #eee;
+    padding: 1em;
+    border: 2px solid #000;
+    width: 120px;
+}
+
+/* this task */
+.flex-container.flex-basis-5em .flex-item {
+    flex-basis: 5em;
+}
+
+.flex-container.flex-shrink-zero .flex-item {
+    flex-shrink: 0;
+}
+
+.flex-container.flex-basis-5em.flex-grow-one {
+    /* width: 900px; */
+    width: auto;
+}
+
+.flex-container.flex-grow-one .flex-item {
+    flex-grow: 1;
+}
