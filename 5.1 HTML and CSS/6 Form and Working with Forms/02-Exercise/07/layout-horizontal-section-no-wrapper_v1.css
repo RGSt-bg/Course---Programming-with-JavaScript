@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option, label {
+    font: inherit;
+    }
+    
+body {
+    border: 2px solid #090;
+    padding: 2em;
+}
+
+.section {
+    border: 2px solid #00f;
+}
+
+.section + .section {
+    margin-top: 2em;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section p:first-of-type {
+    margin: 1.5em 0;
+    font-weight: bold;
+}
+
+.section p:last-of-type {
+    margin-bottom: 1.5em;
+}

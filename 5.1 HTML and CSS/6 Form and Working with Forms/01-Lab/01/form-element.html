@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-element.css">
+    <title>Form element</title>
+</head>
+<body>
+    
+    <h1>The Form Element</h1>
+    <p>The <strong>form</strong> element represents a document section containing interactive controls for submitting information.</p>
+
+    <h2>Attribute - method="get" (default)</h2>
+    <p>Form data appended to the action URL with a ? separator.</p>
+
+        <code>
+<pre>&lt;form action="#" method="get"&gt;
+    &lt;label for="search"&gt;Search&lt;/label&gt;
+    &lt;input type="search" id="search" /&gt;
+    &lt;input type="submit" value="Submit" /&gt;
+&lt;/form&gt;</pre>
+        </code>
+
+    <form action="#" method="get">
+        <input type="search" />
+        <label for="search" id="search-get">Search</label>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Attribute - method="post"</h2>
+    <p>Form data sent as the request body.</p>
+
+        <code>
+<pre>&lt;form action="#" method="post"&gt;
+    &lt;label for="search"&gt;Search&lt;/label&gt;
+    &lt;input type="search" id="search" /&gt;
+    &lt;input type="submit" value="Submit" /&gt;
+&lt;/form&gt;</pre>
+        </code>
+
+    <form action="#" method="post">
+        <input type="search" />
+        <label for="search" id="search-post">Search</label>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

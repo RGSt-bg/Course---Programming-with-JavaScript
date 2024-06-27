@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option, label {
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    min-height: 100vh;
+}
+
+.subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 900px;
+    gap: 1em;
+    background-color: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    margin: auto;
+}
+
+.subscribe input {
+    padding: 1em 1.5em;
+    border: 2px solid #eee;
+    background-color: #eee;
+    border-radius: 0.3em;
+    outline: none;
+}
+
+#name {
+    flex: 1 0 20ch;
+}
+
+#email {
+    flex: 2 0 40ch;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: darkorange;
+    border: 2px solid darkorange;
+    color: #fff;
+    flex: 1 0 15ch;
+}

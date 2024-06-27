@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option, label {
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    display: flex;
+    min-height: 100vh;
+}
+
+.radio-checkbox {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 490px;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    padding: 2em 2.8em;
+    margin: auto;
+}
+
+.radio-checkbox h2 {
+    margin-bottom: 1.3em;
+}
+
+.radio-checkbox ul {
+    list-style: none outside;
+    margin-bottom: 1.8em;
+}
+
+.radio-checkbox input[type="radio"],
+.radio-checkbox input[type="checkbox"] {
+    appearance: none;
+}
+
+.radio-checkbox h2 ~ h2{
+    margin-top: 2em;
+}
+
+.radio-checkbox ul li {
+    display: flex;
+    align-items: center;
+    gap: 0.5em ;
+}
+
+.radio-checkbox ul li ~ li {
+    margin-top: 1.8em;
+}
+
+.radio-checkbox input[type="radio"] {
+    width: 2em;
+    aspect-ratio: 1 / 1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.radio-checkbox input[type="radio"]::before {
+    display: none;
+    content: "";
+    width: 1.4em;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: rgba(179, 98, 0, 0.648);
+     /* A kind of animation from Koko */
+    /* display: block;
+    opacity: 0;
+    transition: opacity 0.3s ease-in; */
+}
+
+.radio-checkbox input[type="radio"]:checked::before {
+    display: block;
+    /* A kind of animation from Koko */
+    /* opacity: 1; */
+}
+
+.radio-checkbox input[type="radio"]:checked {
+    background-color: orange;
+}
+
+.radio-checkbox input[type="checkbox"] {
+    width: 3em;
+    aspect-ratio: 2 / 1;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.2em;
+}
+
+.radio-checkbox input[type="checkbox"]::before {
+    display: block;
+    content: "";
+    width: 1.4em;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background-color: rgba(179, 98, 0, 0.648);
+}
+
+.radio-checkbox input[type="checkbox"]:checked {
+    justify-content: flex-end;
+    background-color: orange;
+}

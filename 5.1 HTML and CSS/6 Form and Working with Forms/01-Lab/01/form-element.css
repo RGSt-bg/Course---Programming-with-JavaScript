@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, select, option {
+    font: inherit;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+code {
+    display: block;
+    padding: 2em 2em 0.5em 2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background-color: #eee;
+    margin: 2em 0;
+    overflow: auto;
+}
+
+input {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    outline: none;
+}
+
+input:focus {
+    border-color: #090;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+label {
+    order: -1;
+}
+
+/* My version */
+/* p {
+    margin-bottom: 2em;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    padding: 2em 0 3em 0;
+    gap: 0.2em;
+}
+
+input[type="search"] {
+    line-height: 2.5em;
+    border: 3px solid #ddd;
+    border-radius: 0.3em;
+} */
