@@ -1,0 +1,39 @@
+body {
+    margin: 60px 45px 0 60px;
+}
+
+/* Header section */
+header {
+    font-family: Helvetica, sans-serif;
+    display: inline-flex;
+    align-items:baseline;
+}
+
+header h1 {
+    margin-right: 30px;
+}
+
+nav ul {
+    margin: 0 0 15px 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: green;
+    padding: 0 0 0 20px;
+}
+
+/* Main section */
+main h1 {
+    font-weight: 500;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}

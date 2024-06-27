@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.viewport {
+    border: 2px solid black;
+    width: 700px;
+    height: 335px;
+    z-index: 1;
+}
+
+.viewport:nth-child(1) {
+    background-image: linear-gradient(to right, 
+    #185a9d, #0067a2, #0073a4, #007ea4, #0088a3, 
+    #0091a5, #0b9aa6, #21a3a5, #1caea7, #21b8a7, 
+    #30c3a6, #42cda2);
+    border-bottom: none;
+}
+
+.viewport:nth-child(2) {
+    background-image: linear-gradient(to right, 
+    #a83278, #b2356d, #b93b62, #bd4357, #bf4d4e, 
+    #c25448, #c55b42, #c6633c, #cb6a34, #cf712c, 
+    #d17921, #d28212);
+    border-top: none;
+}
+
+.card {
+    display: block;
+}
+
+.viewport:nth-child(1) .card {
+    top: 96px;
+    left: 250px;
+    z-index: 2;
+    position: absolute;
+}
+
+.viewport:nth-child(2) .card {
+    top: 356px;
+    left: 250px;
+    z-index: 2;
+    position: absolute;
+}
+
+.card img {
+    width: 200px;
+    z-index: 2;
+}
+
+.card i {
+    font-size: 13px;
+    color: white;
+    z-index: 3;
+}
+
+.viewport:nth-child(1) .card i {
+    top: 114px;
+    left: 180px;
+    position: absolute;
+}
+
+.viewport:nth-child(2) .card i {
+    top: 280px;
+    left: 180px;
+    position: absolute;
+}

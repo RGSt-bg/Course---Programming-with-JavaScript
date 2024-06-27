@@ -1,0 +1,42 @@
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 5em;
+    height: 5em;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    display: block;
+    margin: 23px;
+}
+
+i {
+    font-size: 30px;
+    color: black;
+}
+
+li:nth-child(1) i:hover {
+    color: #3B5998;
+}
+
+li:nth-child(2) i:hover {
+    color: #00ACED;
+}
+
+li:nth-child(3) i:hover {
+    color: #DD4B39;
+}
+
+li:nth-child(4) i:hover,
+li:nth-child(5) i:hover {
+    color: #007BB6;
+}
