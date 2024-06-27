@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Inter, sans-serif;
+}
+
+body, p, img, button {
+    font: inherit;
+}
+
+body {
+    background-color: #85DCFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+    
+.container {
+    padding: 0 2em;
+    max-width: 120vh;
+    /* max-height: 50vh; */
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+
+main {
+    flex: 1 1 60%;
+}
+
+h1 {
+    font-size: 2.2em;
+    line-height: 1.3;
+    max-width: 80%;
+    margin-top: 3em;
+    padding-bottom: 1.5rem;
+}
+
+p {
+    font-size: 0.75em;
+}
+
+p + p {
+    padding-bottom: 1.5rem;
+}
+
+button {
+    font-size: 0.75em;
+    border: none;
+    border-radius: 0.3em;
+    padding: 1em 2.3em;
+    margin-bottom: 5em;
+}
+
+button:first-of-type {
+    background-color: #42AA59;
+    border: 1px solid #000;
+    margin-right: 0.7em;
+}
+
+button:first-of-type:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+aside {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: end;
+    box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.8);
+    margin-top: 2em;
+}
+
+aside img{
+    width: 100%;
+}
