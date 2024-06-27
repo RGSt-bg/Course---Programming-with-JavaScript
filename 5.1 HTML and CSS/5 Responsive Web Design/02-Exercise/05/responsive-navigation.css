@@ -1,0 +1,81 @@
+body {
+    background-color: #eee;
+    min-width: 660px;
+}
+
+.site-navigation {
+    padding: 2em;
+}
+
+.site-navigation,
+.site-navigation ul ul {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-navigation h1 {
+    font-size: 2em;
+}
+
+.site-navigation > ul {
+    display: flex;
+    gap: 1em;
+}
+
+.site-navigation ul ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    /* top: 100%; */
+    left: 0;
+    width: 10em;
+    row-gap: 0;
+    background-color: #fff;
+    z-index: 20;
+}
+
+.site-navigation ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.site-navigation li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+    width: 100%;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 0.3em;
+    /* overflow: hidden; */
+}
+
+.site-navigation a {
+    display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+    border-radius: 0.3em;
+    color: #333;
+    padding: 0.8em 1em;
+}
+
+.site-navigation li:hover > a,
+.site-navigation a:hover {
+    background: rgb(152, 246, 255);
+    color: blue;
+}
+
+.site-navigation li:hover > a {
+    position: relative;
+    z-index: 30;
+}
+
+.site-navigation li:hover > ul {
+    display: flex;
+}

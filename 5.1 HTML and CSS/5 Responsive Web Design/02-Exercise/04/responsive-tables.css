@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+}
+
+
+table th, table td {
+    padding: 1em 1.2em;
+    border: 1px solid #333;
+    background-color: #fff;
+}
+
+@media (max-width: 800px) {
+    table,
+    table thead,
+    table tbody,
+    table tfoot,
+    table tr,
+    table th,
+    table td {
+        display: block;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        padding: 2em 0;
+    }
+
+    table tbody tr td::before {
+        display: inline-block;
+        content: attr(data-title) ": ";
+        font-weight: bold;
+        padding-right: 0.5em;
+    }
+}
