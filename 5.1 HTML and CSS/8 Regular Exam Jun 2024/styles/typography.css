@@ -1,0 +1,14 @@
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }

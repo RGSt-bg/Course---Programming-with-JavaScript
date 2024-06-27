@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    background-color: #000;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1em 0.25em;}
+
+header nav img {
+    width: 105px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 1.6em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.section-plans-one {
+    background-color: #1DB954;
+    text-align: center;
+    padding: 4em 7em;
+    position: relative;
+    z-index: 400;
+}
+
+.background-image {
+    background-image: url("./images/music.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left top;
+    position: absolute;
+    top: 4em;
+    left: 0;
+    right: 0;
+    width: 95%;
+    height: 95%;
+    z-index: 300;
+}
+
+.all-plans {
+    display: flex;
+    flex-direction: column;
+}
+
+.all-plans footer {
+    z-index: 500;
+}
+
+.plans-one {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-plans-one > h2 {
+    color: #fff;
+    margin-bottom: 1em;
+    z-index: 500;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em 3em;
+    background-color: #fff;
+    border-top-left-radius: 0.7em;
+    border-top-right-radius: 0.7em;
+    border: 1px solid #000;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.5);
+    z-index: 500;
+}
+
+.plans ul li,
+.plans h2 {
+    opacity: 0.6;
+}
+
+.plans button {
+    background-color: #1DB954;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    padding: 0.7em 3em;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.plans ul {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.plans ul li {
+    list-style: circle;
+    margin: 0.5em;
+    font-size: 1.4em;
+    width: 21em;
+}
+
+.individual-plan h2 {
+    margin-bottom: 1.4em;
+}
+
+.family-plan h2 {
+    margin-bottom: 0.4em;
+}
+
+.section-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-bottom-left-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+}
+
+.section-footer p {
+    font-size: 1.8em;
+    padding: 0.8em 0;
+}
+
+.section-footer.footer-one p:first-of-type {
+    padding-right: 0.5em;
+    padding-top: 0.3em;
+    border-right: 1px solid #fff;
+    height: 70%;
+}
+
+.section-plans-two {
+    background-color: #fff;
+    height: 25em;
+    position: relative;
+    top: -25em;
+    z-index: 300;
+}
+
+.section-dogopal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 7em;
+    padding-right: 15em;
+    position: relative;
+    top: -17em;
+}
+
+.dogopal h3 {
+    font-size: 1.67em;
+    margin-bottom: 1em;
+}
+
+.section-dogopal img {
+    width: 470px;
+}
+
+.dogopal ul li {
+    list-style: none;
+    font-size: 1.45em;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+.section-experience {
+    position: relative;
+    top: -12em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-experience h1 {
+    font-size: 3.6em;
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+.section-experience p {
+    font-size: 1.45em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+
+.section-experience table {
+    width: 65%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #CCCBCB;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.section-experience table tr td {
+    font-size: 1.5em;
+    padding: 0.45em;
+}
+
+.section-experience table tr td img {
+    width: 25px;
+}
+
+.section-experience table tr td:nth-child(2) {
+    text-align: center;
+    width: 7.5em;
+}
+
+.section-experience table tr td:nth-child(3) {
+    text-align: center;
+    width: 10em;
+}
+
+.section-experience table tr:nth-child(even) {
+    background-color: #81D8A0;
+}
+
+.site-footer {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 1.8em
+}
